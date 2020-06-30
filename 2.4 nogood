@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void)
+{/* 메인함수 이후에 ()가 아닌 {} 로 수정한다. */
+	int n, n2, n3; /* int형 변수를 여러개 선언할 때는 , 를 통해 이어나간다.
+				   아니면 int n; int n2; int n3; 와 같은 방법으로 수정한다 */
+
+	/*this program has several errors - 주석이 닫히지않음*/
+		n = 5;
+		n2 = n * n;
+		n3 = n2 * n2;
+		printf("n=%d, n squared = %d, n cubed = %d\n", n, n2, n3);/*printf문 ; 추가*/
+
+	return 0;
+}
