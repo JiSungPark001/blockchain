@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void)
+{
+	int n, n2, n3;/*n, n2, n3 는 n, n2는 2제곱, n3은 3제곱이다. */
+
+	/* this progeam ha s semantic error */
+
+	n = 5;
+	n2 = n * n;
+	n3 = n * n * n;/* n3 = n*n*n 을 의미한다. n2*n2 => n*n*n, n*n2 와 같은 형식으로 변경*/
+	printf("n=%d, n squared = %d, n cubed = %d\n", n, n2, n3);
+
+}/* } 없음*/
